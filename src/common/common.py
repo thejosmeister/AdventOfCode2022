@@ -6,7 +6,7 @@ def parse_input_into_list_of_strings(input_file: str) -> list:
     f = open(input_file, "r")
 
     for line in f:
-        input_list.append(line)
+        input_list.append(line.rstrip())
 
     f.close()
 

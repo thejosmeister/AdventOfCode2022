@@ -24,3 +24,7 @@ def parse_input_into_list_of_ints(input_file: str) -> list:
     f.close()
 
     return input_list
+
+
+def flatten_list(l):
+    return [item for sublist in l for item in sublist]

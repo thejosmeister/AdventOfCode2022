@@ -14,8 +14,8 @@ letters = lower + upper
 
 
 def find_common_letter_score(x):
-    first = set( list( x[:math.floor(len(x)/2)] ) )
-    second = set(list(x[math.floor(len(x)/2):]))
+    first = set(list(x[:math.floor(len(x) / 2)]))
+    second = set(list(x[math.floor(len(x) / 2):]))
 
     com = first.intersection(second)
 
